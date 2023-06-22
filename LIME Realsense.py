@@ -14,8 +14,6 @@ Y_train_realsense = pickle.load(open('/Volumes/Macintosh HD/Users/keeswagemans/D
 X_test_realsense = pickle.load(open('/Volumes/Macintosh HD/Users/keeswagemans/Desktop/Thesis/iCub dataset/X_test_realsense.pkl', 'rb'))
 Y_test_realsense = pickle.load(open('/Volumes/Macintosh HD/Users/keeswagemans/Desktop/Thesis/iCub dataset/Y_test_realsense.pkl', 'rb'))
 
-
-
 # Loading model
 
 model_left = tf.keras.models.load_model('CNN_2_realsense')
