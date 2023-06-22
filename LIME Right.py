@@ -14,7 +14,6 @@ Y_train_right = pickle.load(open('/Volumes/Macintosh HD/Users/keeswagemans/Deskt
 X_test_right = pickle.load(open('/Volumes/Macintosh HD/Users/keeswagemans/Desktop/Thesis/iCub dataset/X_test_right.pkl', 'rb'))
 Y_test_right = pickle.load(open('/Volumes/Macintosh HD/Users/keeswagemans/Desktop/Thesis/iCub dataset/Y_test_right.pkl', 'rb'))
 
-
 # Loading model
 
 model_left = tf.keras.models.load_model('CNN_3_right')
