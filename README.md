@@ -4,7 +4,7 @@ ICUB ROBOT CODE
 
 This map contains the coding part of my thesis "Deep Learning-based Object Recognition Model for Humanoid Robot". 
 
-The goal of my thesis was to examine if the use of visual inputs from multiple sensors enhances recognition accuracy compared to deep nueral network models that use single visual sensory inputs. In addition to the deep neural network models, an explainable artificial intelligence algorithm was utilised to explain the reasoning of the models. The proposed multiple sensor object recognition model can be used for real world applications by robots with similar sensors (as the robot used in this thesis). 
+The goal of my thesis was to examine if the use of visual inputs from multiple sensors enhances recognition accuracy compared to deep neural network models that use single visual sensory inputs. In addition to the deep neural network models, an explainable artificial intelligence algorithm was utilised to explain the reasoning of the models. The proposed multiple sensor object recognition model can be used for real world applications by robots with similar sensors (as the robot used in this thesis). 
 
 The images of the thesis were made by the iCub robot which was equipped with three RGB cameras (two as the eyes on the robot and one camera on the forehead). The images contain 210 daily life objects. This means that the models were trained on 48360 images. The objects were placed on a turntable and every five percent rotation an image was taken. 
 
